@@ -9,6 +9,8 @@ int main() {
     // Check if both numbers are greater than zero
     if (num1 > 0 && num2 > 0) {
         printf("True\n");
+    } else {
+        printf("True\n");
     }
 
     return 0;
