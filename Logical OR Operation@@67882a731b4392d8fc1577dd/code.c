@@ -6,7 +6,11 @@ int main() {
     // Reading two space-separated integers
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
-    printf("True")
+
+    // Check if both numbers are greater than zero
+    if (num1 > 0 && num2 > 0) {
+        printf("True\n");
+    }
 
     return 0;
 }
