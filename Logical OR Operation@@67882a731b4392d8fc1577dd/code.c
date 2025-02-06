@@ -4,7 +4,6 @@ int main() {
     int num1, num2;
 
     // Reading two space-separated integers
-    printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
 
     // Check if both numbers are greater than zero
