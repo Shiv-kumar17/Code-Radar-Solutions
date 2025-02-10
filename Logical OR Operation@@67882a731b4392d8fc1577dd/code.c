@@ -2,12 +2,9 @@
 
 int main() {
     int num1, num2;
-
-    // Prompting the user to enter two space-separated integers
     scanf("%d %d", &num1, &num2);
-
-    // Checking if both numbers are greater than zero
-    if (num1 > 0 && num2 > 0) {
+    bool result = (num1>0) || (num2 > 0);
+    if (result) {
         printf("True\n");
     } else {
         printf("False\n");
