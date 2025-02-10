@@ -2,6 +2,7 @@
 #include <stdbool.h>
 
 int main() {
+    int num;
     scanf("%d", &num);
     bool result = !(num > 0);
 
