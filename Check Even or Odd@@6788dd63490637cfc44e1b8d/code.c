@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum;
-    scanf("%d %d", &num1, &num2);
-    sum = num1 + num2;
-    printf("%d", sum);
-    return 0;
+  int num;
+  scanf("%d", &num);
+  if (num % 2 == 0) {
+    printf("Even");
+  } else {
+    printf("Odd");
+  }
+  return 0;
 }
