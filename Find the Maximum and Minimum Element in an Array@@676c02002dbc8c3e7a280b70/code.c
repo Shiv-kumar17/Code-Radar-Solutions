@@ -16,18 +16,16 @@ void findMinMax(int arr[], int n, int *min, int *max) {
 
 int main() {
     int n;
-    printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
 
     int arr[n];
-    printf("Enter the array elements: ");
-    for (int i = 0; i < n; i++) {
+\    for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     int min, max;
     findMinMax(arr, n, &min, &max);
-    printf("Minimum: %d Maximum: %d\n", min, max);
+    printf("%d %d", min, max);
 
     return 0;
 }
